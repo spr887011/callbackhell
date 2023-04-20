@@ -2,22 +2,33 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  
+  setTimeout(function() {
+    let h =document.getElementById("Time");
+    setTimeout(function() {h.innerHTML="9"
+      setTimeout(function() {h.innerHTML="8"
+      setTimeout(function() {h.innerHTML="7"
+      setTimeout(function() {h.innerHTML="6"
+      setTimeout(function() {h.innerHTML="5"
+      setTimeout(function() {h.innerHTML="4"
+      setTimeout(function() {h.innerHTML="3"
+      setTimeout(function() {h.innerHTML="2"
+      setTimeout(function() {h.innerHTML="1"
+      setTimeout(function() {h.innerHTML="Happy Independence Day"
+      }, 1000);
+      }, 1000);
+      }, 1000);
+      }, 1000);
+      }, 1000);
+      }, 1000);
+      }, 1000);
+      }, 1000);
+      }, 1000);
+    }, 1000);
+  }, 1000);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <h1 id='Time'>10</h1>
     </div>
   );
 }
